@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-ratio=1>
+    <title>Testing Footer</title>
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+  </head>
+  <body>
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role=document>
+        <div class="modal-content">
+          <div class="modal-title tit-up">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+            <h4 class="modal-title">Customer-login</h4>
+          </div>
+          <div class="modal-body customer-box row">
+            <div class="col-md-12">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#login" data-toggle="tab">Login</a></li>
+                <li><a href="#registration" data-toggle="tab">Registration</a></li>
+              </ul>
+              <!--Tab Panes-->
+              <div class="tab-content">
+                <div class="tab-pane active" id="login">
+                  <form role="form" class="form-horizontal">
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input class="form-control" id="email1" placeholder="Name" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="email">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class=col-sm-10>
+                        <button type="submit" class="btn btn-light btn radius btn-brd grd1">Submit</button>
+                        <a href="javascript" class="for pwd">Forgot your password?</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane" id="registration">
+                  <form role="form" class="form-horizontal">
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="text" placeholder="Name" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="email" placeholder="Email" id="email" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="email" placeholder="Mobile" class="form-control" id="mobile">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="password" class="form-control" placeholder="password" id="password">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-10">
+                        <button type="button" class="btn btn-light btn-radius btn-brd grd1">Save &amp; Continue</button>
+                        <button type="button" class="btn btn-light btn-radius btn-brd grd1">Cancel</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--LOADER-->
+    <div id="preloader">
+      <div class="loading">
+        <div class="finger finger-1">
+          <div class="finger-item">
+            <span></span><i></i>
+          </div>
+        </div>
+        <div class="finger finger-2">
+          <div class="finger-item">
+            <span></span><i></i>
+          </div>
+        </div>
+        <div class="finger finger-3">
+          <div class="finger-item">
+            <span></span><i></i>
+          </div>
+        </div>
+        <div class="finger finger-4">
+          <div class="finger-item">
+            <span></span><i></i>
+          </div>
+        </div>
+        <div class="last-finger">
+          <div class="last-finger-item"><i></i></div>
+        </div>
+      </div>
+    </div>
+    <!--End Loader-->
+    <header class="header header_style_01">
+      <nav class="megamenu navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="footer.html" class="navbar-brand"><img src="logos/logo-hosting.png" alt="image"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="domain.html">Domain</a></li>
+              <li><a href="hoasting.html">Hosting</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="btn-light btn-radius btn-brd log" data-toggle="modal" data-target="#login"><i class="flaticon-padlock"></i>Customer Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="all-title-box" style="background:url('about_02.jpg') no-repeat; background-size:cover; min-height:200px; width:100%;position:relative;">
+      <div class="container text-center">
+        <h1>Features<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
+      </div>
+    </div>
+    <footer class=footer>
+      <div class=container>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <img src="logos/logo-hosting.png" alt="">
+                <small>Web Hosting Template</small>
+              </div>
+            </div>
+            <div>
+              <p>Integer rustrum rastra lingun eu dignissim laoret.Pellentesque venenatis nibh sed tellus faucibus bubendum.sed fermentum est vitae whincus molestine. cum soccis natoque penatibus et magnis dis montes.</p>
+              <p>Sed fermentus est vitae rhoncus molestine. cum sociis natowue penatibus at magnis dis montes</p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-xs-12 col-md-3">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <h3>Information link</h3>
+              </div>
+              <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">faq</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <h3>Contact details</h3>
+              </div>
+              <ul class=footer-links>
+                <li><a href="mailto:#">daodu.muyiwa@gmail.com</a></li>
+                <li><a href="#">www.mywebsite.com</a></li>
+                <li>PO Box 1221 Collins Street West Victoria 8007 Nigeria</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <h3>Social</h3>
+              </div>
+              <ul class="footer-link">
+                <li><a href="#"><i class="fa fa-facebook"></i> 22.543 likes</a></li>
+                <li><a href="#"><i class="fa fa-github"></i>128 Projects</a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i>12.860 Followers</a></li>
+                <li><a href="#"><i class="fa fa-dribble"></i>3312 shots</a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i>3331 Pins</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="heart"></div>
+  </body>
+</html>
